@@ -2,6 +2,9 @@ import Header from './components/Header.js';
 import Carousel from './components/Carousel.js';
 import Tabs from './components/Tabs.js';
 import YouTube from './components/YouTube.js';
+import Scroller from './components/Header.js';
+import TextAnim from './components/TextAnim.js';
+import Form from './components/Form.js';
 
 export default class ComponentFactory {
   constructor() {
@@ -11,6 +14,9 @@ export default class ComponentFactory {
       Carousel,
       Tabs,
       YouTube,
+      Scroller,
+      TextAnim,
+      Form,
     };
     this.init();
   }
