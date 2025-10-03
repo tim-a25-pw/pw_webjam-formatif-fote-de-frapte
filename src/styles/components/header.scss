@@ -1,0 +1,17 @@
+/* ==========================================================================
+   header / component
+   ========================================================================== */
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: transform 0.4s $ease-out-expo;
+
+    .header-is-hidden.is-scrolling-down:not(.nav-is-active) &{
+        transform: translateY(-100%) translateY(4px);
+    }
+}

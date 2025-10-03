@@ -1,7 +1,17 @@
+import Header from './components/Header.js';
+import Carousel from './components/Carousel.js';
+import Tabs from './components/Tabs.js';
+import YouTube from './components/YouTube.js';
+
 export default class ComponentFactory {
   constructor() {
     this.componentInstances = [];
-    this.componentList = {};
+    this.componentList = {
+      Header,
+      Carousel,
+      Tabs,
+      YouTube,
+    };
     this.init();
   }
   init() {
