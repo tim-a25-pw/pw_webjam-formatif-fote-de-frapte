@@ -1,0 +1,33 @@
+/* ==========================================================================
+   blog / component
+   ========================================================================== */
+
+   .cards_blog{
+    padding:63px 0px;
+    display:grid;
+    grid-template-columns:3fr 2fr;
+    gap:11px 51px;
+   }
+
+   .card_blog{
+    width:473px;
+    display:flex;
+    flex-direction:column;
+
+    .card_media{
+        
+        img{
+            height:381px;
+            object-fit:cover;
+        }
+    }
+
+    .card_content{
+        color:var(--color-white);
+        background-color:var(--color-tertiary);
+        padding:32px;
+        display:flex;
+        flex-direction:column;
+        gap:16px;
+    }
+   }
