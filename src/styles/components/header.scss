@@ -15,3 +15,20 @@
         transform: translateY(-100%) translateY(4px);
     }
 }
+
+.header {
+    background-color: var(--color-primary);
+
+    height: 100px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        gap: 40px;
+    }
+}
