@@ -3,11 +3,12 @@
    ========================================================================== */
 /// Font family
 :root {
-    --font-primary: 'Montserrat', sans-serif;
-    --font-secondary: 'Fira Code', monospace;
+    --font-primary: 'Gantari', sans-serif;
+    --font-secondary: 'Jockey One', sans-serif;
 
-    --font-size-content: #{typo(16px, 18px)};
+    --font-size-content: #{typo(16px, 20px)};
 
     /// Grosseur des textes
-    --font-size-h1: #{typo(28px, 42px)};
+    --font-size-h1: #{typo(24px, 50px)};
+    --font-size-h3: #{typo(18px, 30px)};
 }
