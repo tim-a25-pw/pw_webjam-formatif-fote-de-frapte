@@ -1,0 +1,17 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    height: 380px;
+}
+
+.card .card-media{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

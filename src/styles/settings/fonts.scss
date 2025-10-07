@@ -10,5 +10,7 @@
 
     /// Grosseur des textes
     --font-size-h1: #{typo(24px, 50px)};
+    --font-size-h2: #{typo(20px, 40px)};
     --font-size-h3: #{typo(18px, 30px)};
+    --font-size-h4: #{typo(16px, 20px)};
 }
