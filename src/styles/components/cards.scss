@@ -11,15 +11,8 @@
     align-items: flex-end;
 }
 
-.card {
-    position: relative;
-}
-
-.card-content {
-  position: absolute;
-}
-
 .card .card-content{
+    position: absolute;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -27,9 +20,7 @@
     padding: 20px 40px;
     color: var(--color-white);
 }
-.card-media {
-  position: relative;
-}
+
 .card-media img {
   display: block;
 }
