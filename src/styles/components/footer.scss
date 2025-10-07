@@ -1,0 +1,19 @@
+.footer {
+    padding: 50px 0;
+    background-color: var(--color-secondary);
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h3 {
+        margin-bottom: 1em;
+    }
+
+    p {
+        line-height: 1.2;
+        margin: 0;
+    }
+}
