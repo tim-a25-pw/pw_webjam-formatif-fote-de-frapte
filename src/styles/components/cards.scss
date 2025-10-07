@@ -9,9 +9,17 @@
     height: 380px;
 }
 
-.card .card-media{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+.card-media {
+  position: relative;
+}
+.card-media img {
+  display: block;
+}
+
+.card-media::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
 }
