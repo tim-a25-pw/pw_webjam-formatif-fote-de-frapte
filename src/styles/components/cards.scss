@@ -7,6 +7,8 @@
 .card{
     position: relative;
     height: 380px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .card .card-media{
@@ -14,4 +16,13 @@
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.card .card-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: var(--color-white);
 }
